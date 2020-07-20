@@ -1,0 +1,130 @@
+﻿@media only screen and (max-width: 1003px) {
+    .header-container {
+        position: static;
+        height: auto;
+    }
+
+    .main {
+        padding-top: 0;
+    }
+
+    .block {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .menu {
+        background: #ce2008;
+        float: none;
+        left: 0;
+        padding-top: 60px;
+        padding-bottom: 10px;
+        position: relative;
+        z-index: 20;
+        max-height: 0;
+        overflow: hidden;
+        transition: all 0.9s;
+        -webkit-transition: all 0.5s;
+    }
+
+        .menu:after {
+            content: "menu";
+            position: absolute;
+            color: #fff;
+            text-transform: uppercase;
+            top: 25px;
+            right: 10px;
+            padding: 10px;
+            box-sizing: border-box;
+            border: 1px solid #fff;
+            cursor: pointer;
+            border-radius: 10px;
+        }
+        .menu:hover {
+           max-height: 2000px;
+        }
+        .menu a {
+            float: none;
+            text-align: left;
+            clear: both;
+            padding: 15px 10px;
+        }
+
+    .main-banner, .portfolio .slider {
+        height: 300px;
+    }
+
+    .descriptions .des h1 {
+        font-size: 16px;
+    }
+
+    .descriptions .des a {
+        display: none;
+    }
+
+    .company .tabs a {
+        border: none;
+    }
+
+    .company .phase-map .button {
+        display: none;
+    }
+
+    .portfolio .items .item .button {
+        display: none;
+    }
+
+    .services > .tabs a {
+        display: block;
+        padding: 10px 0px;
+        border: none;
+    }
+
+    .services .section .tabs {
+        display: block;
+    }
+
+        .services .section .tabs a {
+            display: block;
+            margin: 5px;
+        }
+
+            .services .section .tabs a:after {
+                display: none;
+            }
+
+    .contact .adress .left, .contact .adress .right {
+        float: none;
+        width: auto;
+    }
+
+    .contact .adress .box {
+        margin: 10px;
+        padding: 10px;
+    }
+
+        .contact .adress .box .map-open {
+            right: 5px;
+            top: 5px;
+        }
+
+    .contact .map {
+        background-size: auto 100%;
+    }
+
+    .clients .section ul li {
+        float: none;
+        display: block;
+        width: auto;
+    }
+
+    .portfolio .dots {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 1925px) {
+    .portfolio .slider {
+        height: 900px;
+    }
+}
